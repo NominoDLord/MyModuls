@@ -11,7 +11,7 @@
 # pip install pyautogui
 # pip3 install pyautogui
 
-from typing import List, Tuple, Any
+from typing import Tuple, Any
 
 import pyautogui
 from time import sleep
@@ -26,7 +26,7 @@ from time import sleep
     
 """
 
-def recibir_posicion_cursor() -> tuple[Any, Any]:
+def recibir_posicion_cursor() -> Tuple[Any, Any]:
     """
     Devuelve las coordenadas X/Y del cursor en el momento de su ejecución.
     Esta función es útil para obtener la posición de un elemento en concreto situando el ratón encima de él.
@@ -82,9 +82,9 @@ def pulsar_boton_central(pulsar=1) -> None:
         pulsar -= 1
     pass
 
-pulsar_boton_central()
+# pulsar_boton_central()
 
-def mantener_boton_izquierdo(pos_ini_x, pos_ini_y, seg=True, pos_fin_x=None, pos_fin_y=None) -> None:
+def mantener_boton_izquierdo(pos_ini_x, pos_ini_y, seg=0, pos_fin_x=None, pos_fin_y=None) -> None:
     """
     Mantiene pulsado el botón izquierdo del ratón.
     Si no se especifican los argumentos X/Y finales, la pulsación se mantendrá en su posición inicial.
@@ -109,6 +109,7 @@ def mantener_boton_izquierdo(pos_ini_x, pos_ini_y, seg=True, pos_fin_x=None, pos
 
     pass
 
-# mantener_boton_izquierdo(800, 400, 3)
-# mantener_boton_izquierdo(800, 400, 1, pos_fin_y=500)
-# mantener_boton_izquierdo(800, 400, 1, pos_fin_x=1000, pos_fin_y=500)
+# mantener_boton_izquierdo(1200, 400)
+# mantener_boton_izquierdo(1200, 400, 3)
+# mantener_boton_izquierdo(1200, 400, 1, 1400, 500)
+# mantener_boton_izquierdo(1200, 400, 1, pos_fin_y=500)
