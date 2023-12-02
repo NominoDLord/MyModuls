@@ -19,7 +19,7 @@ from time import sleep
 """
     INFO:
     Para el uso de este módulo se deberá tener instalada la biblioteca externa 'pyautogui'.
-    En este módulo se han creado funciones específicas para las funciones de pulsación y movimiento del ratón.
+    En este módulo se han creado acciones específicas para las funciones de pulsación y movimiento del ratón.
 
     NOTA:
     Las coordenadas [x, y] = [0, 0] pertenecen a la posición superior-izquierda de la pantalla.
@@ -34,8 +34,8 @@ def recibir_posicion_cursor() -> Tuple[Any, Any]:
     coordenada_x, coordenada_y = pyautogui.position()
     return coordenada_x, coordenada_y
 
-# x, y = obtener_coordenadas_mouse()
-# print(f"Coordenada 'X' = {x}\nCoordenada 'Y' = {y}")
+x, y = recibir_posicion_cursor()
+print(f"Coordenada 'X' = {x}\nCoordenada 'Y' = {y}")
 
 def definir_posicion_cursor(pos_x: int, pos_y: int) -> None:
     """
@@ -47,7 +47,8 @@ def definir_posicion_cursor(pos_x: int, pos_y: int) -> None:
     pyautogui.moveTo(pos_x, pos_y)
     pass
 
-# posicion_mouse(600, 400)
+# definir_posicion_cursor(1150, 850)
+
 
 def pulsar_boton_izquierdo(pulsar=1) -> None:
     """
