@@ -7,7 +7,7 @@
 ```
 ---
 
-# MyModuls
+# **MyModuls**
 
 ESTADO: En desarrollo...
 
@@ -19,14 +19,15 @@ ESTADO: En desarrollo...
 >
 > ---
 
-### ***::: INFORMACIÓN :::***
+### *::: INFORMACIÓN :::*
 
 *Módulos personalizados para distintos lenguajes de programación.*
 
 Este repositorio es donde voy recopilando los scripts que he ido creando y usando en los distintos programas que he ido desarrollando.
+
 ---
 
-### ***::: ESTRUCTURA :::***
+### *::: ESTRUCTURA :::*
 ```
 MyModuls/
 |
@@ -39,7 +40,7 @@ MyModuls/
 |   |-- mMouse.py
 ```
 ---
-### ***::: NORMAS DE USO :::***
+### *::: NORMAS DE USO :::*
 
 El contenido que se encuentra en este repositorio esta sujeto a ciertas normas de uso:
 
@@ -50,8 +51,9 @@ El contenido que se encuentra en este repositorio esta sujeto a ciertas normas d
 ```
 
 Hacer un mal uso del contenido conllevará a acciones legales contra la persona o entidad responsable.
+
 ---
-### ***::: CONTACTO :::***
+### *::: CONTACTO :::*
 
 > AUTOR: Nômino D Lord
 > 
