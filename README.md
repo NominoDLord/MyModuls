@@ -1,33 +1,60 @@
--     ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####  
-      ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##
-      ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##
-      ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##
-      ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####  
-------------------------------------------------------------------------------------------------------------
+```
+##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####  
+###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##
+## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##
+##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##
+##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####  
+```
+---
 
-Creative Commons Attribution-NonCommercial 4.0 International License
+# MyModuls
 
-https://creativecommons.org/licenses/by-nc/4.0/
+ESTADO: En desarrollo...
 
-Copyright (c) 2023 Nômino D Lord
-=======================================================================
+> ---
+> *LICENSE:*
+>
+> Creative Commons Attribution-NonCommercial 4.0 International
+> > Copyright (c) 2023 Nômino D Lord
+>
+> ---
 
-	[MyModuls] 		https://github.com/NominoDLord/MyModuls
+### ***::: INFORMACIÓN :::***
 
-------------------------------------------------------------------------------------------------------------
+*Módulos personalizados para distintos lenguajes de programación.*
 
-	INFORMACIÓN
-	
-Módulos personalizados para distintos lenguajes de programación.
+Este repositorio es donde voy recopilando los scripts que he ido creando y usando en los distintos programas que he ido desarrollando.
+---
 
-En este repositorio pretende ser una recopilación de los scripts que he ido usando en algunos de mis programas.
+### ***::: ESTRUCTURA :::***
+```
+MyModuls/
+|
+|-- .gitattributes
+|-- LICENSE
+|-- LICENSE-es
+|-- README.md
+|
+|-- Python/
+|   |-- mMouse.py
+```
+---
+### ***::: NORMAS DE USO :::***
 
-Todos estos escripts han sido creados por mi, con lo cual, su uso fuera de este repositorio está sujeto a ciertas normas:
+El contenido que se encuentra en este repositorio esta sujeto a ciertas normas de uso:
 
-	1º. Permito a cualquier persona o entidad hacer uso de ellos siempre y cuando se nombre de su procedencia.
-	2º. Permito que estos puedan ser editados y manipulados según necesidades personales de implementación.
-	3º. Bajo ninguna circumstancia estos archivos pueden ser usados para obtención de un beneficio comercial.
+```License
+1º Se permite su uso a cualquier persona/entidad siempre y cuando se acredite su procedencia.
+2º Se permite compartir, editar y adaptar el contenido según necesidades personales.
+3º Bajo ninguna circunstancia el contenido pueden ser usado con fines comerciales.
+```
 
-El incumplimiento de estas normas conllevará a acciones legales contra la persona o institución que haga un mal uso de estos.
-------------------------------------------------------------------------------------------------------------
-AUTOR:	Nômino D Lord
+Hacer un mal uso del contenido conllevará a acciones legales contra la persona o entidad responsable.
+---
+### ***::: CONTACTO :::***
+
+> AUTOR: Nômino D Lord
+> 
+> E-MAIL: nominodlord@mailfence.com
+> 
+> DONAR: [PayPal](https://www.paypal.com/donate/?hosted_button_id=V7JFQBUUK5ZYA)
