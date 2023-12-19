@@ -23,7 +23,7 @@ ESTADO: En desarrollo...
 
 *Módulos personalizados para distintos lenguajes de programación.*
 
-Este repositorio es donde voy recopilando los scripts que he ido creando y usando en los distintos programas que he ido desarrollando.
+Recopilando de los Scripts que he ido creando (y usando) en los distintos programas que he ido desarrollando.
 
 ---
 
@@ -32,6 +32,7 @@ Este repositorio es donde voy recopilando los scripts que he ido creando y usand
 MyModuls/
 |
 |-- .gitattributes
+|
 |-- LICENSE
 |-- LICENSE-es
 |-- README.md
